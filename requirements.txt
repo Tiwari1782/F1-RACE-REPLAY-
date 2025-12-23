@@ -4,3 +4,14 @@ matplotlib
 numpy
 arcade
 pyglet
+
+
+To run the code just follow two simple steps in the terminal :
+Step 1: Activate the virtual environment (only once per terminal) 
+    .\venv\Scripts\activate
+Now your prompt will automatically change to: - (venv) PS C:\MERN STACK\BASIC PROJECTS\F1 TRACKER\f1-race-replay>
+
+Step 2: Now run the import test (WITHOUT (venv))
+python -c "import fastf1, arcade, pandas, matplotlib; print('All imports OK')"
+
+Step 3: Run the Project - python main.py
